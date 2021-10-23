@@ -5,3 +5,7 @@ carpeta res.  **Averiguar diferencias MIPMAP y drawable**
 - Explicar emulador y dispositivo real. Guiar alumnos a activar modo desarrollador en dipositivos
 reales y a crear un emulador en AVD Manager.
   - Compilar y correr app en emulador. Los alumnos lo haran en emulador o dispositivo real.
+## Commit 2. Títulos.
+    - Llamar atención al título definido en el manifesto y el string, y al nombre de la app en el 
+      launcher. 
+    - Hacer que los alumnos cambien el tìtulo de la app.
