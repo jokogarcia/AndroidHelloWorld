@@ -9,3 +9,7 @@ reales y a crear un emulador en AVD Manager.
     - Llamar atención al título definido en el manifesto y el string, y al nombre de la app en el 
       launcher. 
     - Hacer que los alumnos cambien el tìtulo de la app.
+## Commit 3. Boton
+- Agregar un botón en el main_layout, debajo del label que está por defecto.
+- Explicar ids, views, findViewById
+- 
