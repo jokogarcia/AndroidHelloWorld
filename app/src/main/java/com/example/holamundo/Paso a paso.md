@@ -14,10 +14,12 @@ reales y a crear un emulador en AVD Manager.
 - Explicar ids, views, findViewById
 - setear el parametro onClick del boton al metodo onClick de la actividad
 - Implementar onClickListener en mainActivity y agregar comportamiento de boton ahi.
-### Commit 4. Boton color
+## Commit 4. Boton color
 - Agregar un segundo boton que tambien use el onClick de la actividad
 - Usar el id de los botones para identificar a cual se refiere en el codigo.
 - El comportamiento del boton nuevo es cambiar el color de texto
 - Quitar strings hardcodeadas y utilizar strings.xml
-### Comit 5. When
+## Comit 5. When
    Utilizar When en vez de bloques if para distinguir ids de botones
+## Commit 6. OnSaveInstanceState
+Implementar onSaveInstanceState y onRestoreInstanceState para preservar valores cambiados por el usuario

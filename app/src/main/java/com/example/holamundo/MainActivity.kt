@@ -27,4 +27,20 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
         }
     }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        val textView = findViewById<TextView>(R.id.textView)
+        outState.putString("contenidoTexto",textView.text.toString())
+        outState.putInt("colorTexto",textView.currentTextColor)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        if(savedInstanceState.containsKey("contenidoTexto")){
+            val textView = findViewById<TextView>(R.id.textView)
+            textView.text=savedInstanceState.getString("contenidoTexto")
+            textView.setTextColor(savedInstanceState.getInt("colorTexto"))
+        }
+    }
 }
