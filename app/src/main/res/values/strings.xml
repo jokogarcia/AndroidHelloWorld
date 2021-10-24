@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hola Kotlin</string>
+    <string name="tocame">Tocame</string>
+    <string name="color">Color</string>
 </resources>
