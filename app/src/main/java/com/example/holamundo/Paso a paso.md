@@ -19,3 +19,5 @@ reales y a crear un emulador en AVD Manager.
 - Usar el id de los botones para identificar a cual se refiere en el codigo.
 - El comportamiento del boton nuevo es cambiar el color de texto
 - Quitar strings hardcodeadas y utilizar strings.xml
+### Comit 5. When
+   Utilizar When en vez de bloques if para distinguir ids de botones
