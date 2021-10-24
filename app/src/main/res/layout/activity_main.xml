@@ -25,8 +25,20 @@
         android:layout_marginTop="24dp"
         android:onClick="onClick"
         android:text="Tocame"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_color"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bt_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Color"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_cambiar_texto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_cambiar_texto"
+        app:layout_constraintTop_toTopOf="@+id/bt_cambiar_texto"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

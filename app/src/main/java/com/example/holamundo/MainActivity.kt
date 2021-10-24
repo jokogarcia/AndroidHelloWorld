@@ -1,9 +1,9 @@
 package com.example.holamundo
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity(),View.OnClickListener {
@@ -13,7 +13,15 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        val texto = findViewById<TextView>(R.id.textView)
-        texto.text="¡Hola Kotlin!"
+        if(v!=null){
+            if(v.id == R.id.bt_cambiar_texto){
+                val texto = findViewById<TextView>(R.id.textView)
+                texto.text="¡Hola Kotlin!"
+            }
+            if(v.id == R.id.bt_color){
+                val texto = findViewById<TextView>(R.id.textView)
+                texto.setTextColor(Color.BLUE)
+            }
+        }
     }
 }

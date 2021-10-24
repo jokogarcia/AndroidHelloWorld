@@ -12,4 +12,9 @@ reales y a crear un emulador en AVD Manager.
 ## Commit 3. Boton
 - Agregar un botón en el main_layout, debajo del label que está por defecto.
 - Explicar ids, views, findViewById
-- 
+- setear el parametro onClick del boton al metodo onClick de la actividad
+- Implementar onClickListener en mainActivity y agregar comportamiento de boton ahi.
+### Commit 4. Boton color
+- Agregar un segundo boton que tambien use el onClick de la actividad
+- Usar el id de los botones para identificar a cual se refiere en el codigo.
+- El comportamiento del boton nuevo es cambiar el color de texto
